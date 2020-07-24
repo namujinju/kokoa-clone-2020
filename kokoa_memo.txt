@@ -1,0 +1,30 @@
+9.5
+HTML은 웹사이트의 content가 무엇인지 알려줘
+
+CSS는 content가 어떻게 보여야 하는지 알려줘
+
+10.0 폴더명과 파일명은 반드시 영어 소문자로
+
+10.1 html 의 장단점: 에러가 있다고 알려주지 않음.
+
+10.2 
+h1~h6태그까지 있다.
+
+head 태그 안의 link 태그, meta 태그의 attributes
+
+html tags 'mdn'
+mdn을 찾는 중
+
+w3schools 사이트 절대 사용하지 말 것
+
+id값은 고유해야 하며, 태그는 하나의 id만 가질 수 있다. unique identifier.
+id: scripting이나 css을 식별하려는 목적을 가짐
+
+
+div 떡칠하지 말고 header, main, footer 등의 다양한 태그를 넣어서 코드만 보고 어떤 의미인지 직관적으로 파악하게 하자.
+footer(꼬리말)
+semantic tag를 활용
+
+p는 문단, span은 short text
+
+mdn 문서의 content sectioning에 semantic tag가 있다. ex) address, footer, header, h1, main
