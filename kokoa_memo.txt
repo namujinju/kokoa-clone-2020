@@ -12,16 +12,17 @@ h1~h6태그까지 있다.
 
 head 태그 안의 link 태그, meta 태그의 attributes
 
-html tags 'mdn'
-mdn을 찾는 중
+html tags 'mdn'으로 검색하기(Mozilla Developer Network)
+mdn을 포함해서 검색하기
 
-w3schools 사이트 절대 사용하지 말 것
+w3schools 사이트 절대 사용하지 말 것(왜?)
 
 id값은 고유해야 하며, 태그는 하나의 id만 가질 수 있다. unique identifier.
 id: scripting이나 css을 식별하려는 목적을 가짐
 
 
-div 떡칠하지 말고 header, main, footer 등의 다양한 태그를 넣어서 코드만 보고 어떤 의미인지 직관적으로 파악하게 하자.
+div 떡칠하지 말고 header, main, footer 등의 다양한 태그를 넣어서 코드만 보고 어떤 의미인지
+직관적으로 파악하게 하자.
 footer(꼬리말)
 semantic tag를 활용
 
