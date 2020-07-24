@@ -28,3 +28,6 @@ semantic tag를 활용
 p는 문단, span은 short text
 
 mdn 문서의 content sectioning에 semantic tag가 있다. ex) address, footer, header, h1, main
+
+
+github desktop 사용법
