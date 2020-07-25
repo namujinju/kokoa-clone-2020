@@ -30,5 +30,33 @@ p는 문단, span은 short text
 
 mdn 문서의 content sectioning에 semantic tag가 있다. ex) address, footer, header, h1, main
 
+github desktop 사용법 배움
 
-github desktop 사용법
+11.2
+cascading 뜻: 폭포처럼 코드가 위에서 아래로 적용
+css는 위에서부터 차례대로 적용됨
+
+요소 옆에 다른 요소가 올 수 없다: block (div, p)
+요소 옆에 다른 요소가 올 수 있다: inline (img, span, a)
+
+inline을 기억하는 게 더 편하다
+
+inline 요소는 너비와 높이를 가질 수 없다.
+
+# 중요!
+box의 속성
+1. margin: box의 border로부터 바깥에 있는 공간
+2. border
+3. padding
+
+
+11.5
+margin shortcut
+collapsing margins
+
+inline 요소 상하에 margin을 넣어주고 싶을 때 block으로 바꿔줘야 함.
+
+flexbox 중요 규칙: 부모 element에만 명시해야 해.
+
+justify-content: main axis (주축)
+align-items: cross axis (교차축)
