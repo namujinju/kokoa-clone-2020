@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>namujinju Times</title>
+    <style>
+      body {
+        height: 1000vh;
+      }
+      /* 
+      div {
+        width: 100px;
+        height: 100px;
+        color: white;
+        background-color: wheat;
+        position: relative;
+      } */
+      /* #green {
+        position: fixed;
+        opacity: 0.5;
+      }
+      #different {
+        left: 100px;
+        background-color: wheat;
+        width: 350px;
+      }
+      .green {
+        background-color: teal;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+         top: 100px; relative인 부모를 찾아 올라간다. 없으면 body를 기준으로
+      } */
+      /* span {
+        background-color: grey;
+        font-size: 50px;
+      }
+      span:nth-child(2n + 5) {
+        background-color: green;
+      } */
+
+      span {
+        color: tomato;
+        background-color: yellowgreen;
+        padding: 5px;
+        border-radius: 10px;
+      }
+      p span {
+        color: green;
+      }
+
+      /* div 바로 밑 자식 */
+      /* div > span {
+        text-decoration: line-through;
+      } */
+      p ~ span {
+        text-decoration: underline;
+      } /* Combinator*/
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>This is a paragraph! Yeah! <span>inside</span></p>
+      <address>address</address>
+      <span>hello span</span>
+      <span>hello span</span>
+      <span>hello span</span>
+    </div>
+  </body>
+</html>

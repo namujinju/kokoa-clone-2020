@@ -60,3 +60,30 @@ flexbox 중요 규칙: 부모 element에만 명시해야 해.
 
 justify-content: main axis (주축)
 align-items: cross axis (교차축)
+
+position fixed, relative, absolute
+Pseudo Selector
+
+11.15
+Combinator
+
+# 부모 p, 자식 span
+p span {
+
+}
+
+# 부모 p, 바로 아래 자식 span
+p > span {
+
+}
+
+#p 바로 다음에 오는 span
+p + span {
+
+}
+
+Attribute selectors https://developer.mozilla.org/ko/docs/Web/CSS/Attribute_selectors
+
+states: activate, hover, focus, visited, focus-within
+
+custom properties

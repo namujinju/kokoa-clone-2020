@@ -8,25 +8,29 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 70vh;
+        height: 100vh;
+        flex-wrap: wrap-reverse;
+        flex-direction: column;
       }
       #second {
         background-color: tomato;
       }
       div {
         /* display: inline-block; It sucks! */
-
-        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
         height: 100px;
         background-color: teal;
       }
     </style>
   </head>
   <body>
-    <div></div>
+    <div>1</div>
     <div id="second">we</div>
-    <div></div>
-    <div></div>
-    <div></div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
   </body>
 </html>

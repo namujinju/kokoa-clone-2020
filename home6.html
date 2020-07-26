@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+      :root {
+        --main-color: #4f0de9;
+      }
+      input {
+        border: 1px solid red;
+      }
+      input:required {
+        border: 1px solid blue;
+      }
+      input[placeholder~="name"] {
+        background-color: pink;
+      } /* attribute selector*/
+      button:active {
+        background-color: tomato;
+      }
+      button:hover {
+        color: blue;
+      }
+      input:focus {
+        background-color: blueviolet;
+      }
+      a:visited {
+        color: brown;
+      }
+      a:hover {
+        color: chartreuse;
+      }
+      form {
+        border: 3px solid;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border-color: var(--main-color);
+      }
+      form:focus-within {
+      }
+      form:hover input {
+        background-color: springgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <form>
+        <input type="text" placeholder="First name" />
+        <input type="text" placeholder="last name" />
+        <input type="password" required placeholder="password" />
+
+        <button>hello</button>
+        <input type="text" />
+        <input type="text" />
+        <a href="https://www.apple.com">Go to apple</a>
+      </form>
+      <form>
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+      </form>
+    </div>
+  </body>
+</html>
