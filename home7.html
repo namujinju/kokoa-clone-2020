@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>The Namujinju Times</title>
+  </head>
+  <style>
+    body {
+      padding: 10px;
+    }
+    a {
+      color: white;
+      background-color: tomato;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-size: 50px;
+      /* transition: background-color 1s ease-in-out, color 3s ease-in-out; */
+      /* transition: all 1s ease-in-out; */
+      transition: all 1000ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    }
+    img {
+      transition: transform 1s ease-in-out;
+    }
+    img:hover {
+      border: 3px solid black;
+      border-radius: 50%;
+      transform: matrix(1, 2, 3, 4, 5, 6);
+    }
+    a:hover {
+      border-radius: 30px;
+      color: tomato;
+      background-color: wheat;
+    }
+  </style>
+  <body>
+    <img src="img/jollaman.png" />
+  </body>
+</html>

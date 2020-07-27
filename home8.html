@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Home8</title>
+    <style>
+      @keyframes CoinFlip {
+        0% {
+          transform: rotateY(0);
+        }
+        50% {
+          transform: rotateY(180deg) translateY(100px);
+        }
+      }
+      img {
+        border: 3px solid black;
+        border-radius: 50%;
+        transition: 1s ease-in-out;
+        animation: CoinFlip 3s ease-in-out infinite;
+      }
+      body {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+      }
+      div {
+        background-color: teal;
+        width: 200px;
+        height: 200px;
+      }
+      @media screen and (min-width: 600px) and (orientation: landscape) {
+        div {
+          background-color: tomato;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>

@@ -87,3 +87,13 @@ Attribute selectors https://developer.mozilla.org/ko/docs/Web/CSS/Attribute_sele
 states: activate, hover, focus, visited, focus-within
 
 custom properties
+
+12.0 Transitions
+https://matthewlein.com/tools/ceaser
+
+Transformation은 다른 box element에 영향을 끼치지 않는다.
+Transformation mdn: https://developer.mozilla.org/ko/docs/Web/CSS/transform
+
+12.5 Media Query
+CSS만을 이용해서 스크린의 사이즈를 아는 방법
+
