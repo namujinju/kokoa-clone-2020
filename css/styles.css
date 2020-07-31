@@ -2,6 +2,10 @@
 @import "status-bar.css";
 @import "welcome-header.css";
 
+body {
+  background-color: rgb(189, 218, 189);
+}
+
 .welcome-div {
   margin: 7% 5%;
 }
