@@ -1,0 +1,13 @@
+@import "reset.css";
+@import "status-bar.css";
+@import "welcome-header.css";
+
+.welcome-div {
+  margin: 7% 5%;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}

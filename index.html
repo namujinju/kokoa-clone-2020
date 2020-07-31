@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Line</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+        <!-- To do: wifi icon -->
+      </div>
+      <div class="status-bar__column">
+        <span>18:45</span>
+        <!-- To do: now time -->
+      </div>
+      <div class="status-bar__column">
+        <span>99%</span>
+        <i class="fas fa-battery-three-quarters"></i>
+        <i class="fas fa-bolt"></i>
+        <!-- To do: battery icon -->
+      </div>
+    </div>
+    <div class="welcome-div">
+      <header class="welcome-header">
+        <h1 class="welcome-header__title">이 기기 전화번호 입력</h1>
+        <p class="welcome-header__text">
+          전화번호를 입력하고 화살표를 누르기 전에 LINE
+          <a href="#">이용약관</a>과
+          <a href="#">개인정보처리방침</a>
+          에 동의해주세요.
+        </p>
+      </header>
+
+      <form id="login-form">
+        <select name="choice-country">
+          <option value="first" selected>대한민국 (Republic of Korea)</option>
+          <option value="second">모로코 (Morocco)</option>
+          <option value="third">샤쿠라스 (Shakuras)</option>
+        </select>
+        <input type="text" placeholder="전화번호" />
+        <input type="submit" value="로그인" />
+        <a href="#"><i class="fab fa-facebook"></i>Facebook으로 로그인</a>
+      </form>
+    </div>
+
+    <!-- script는 항상 body 닫기 직전에 -->
+    <script src="https://kit.fontawesome.com/a6b6bc5f72.js"></script>
+  </body>
+</html>
