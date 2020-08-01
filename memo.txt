@@ -16,3 +16,26 @@ https://css-tricks.com/bem-101/
 reset css
 https://cssreset.com/scripts/eric-meyer-reset-css/
 브라우저 스타일을 없애고 우리가 직접 디자인 하는 게 더 좋다
+
+
+css :not()
+뭔가가 적용되는 걸 원하지 않을 때
+
+
+shortcut
+nav>ul>li*4>a
+
+
+중요!
+padding 할 때 box 사이즈를 변경하지 말라고 알려줘야 할 때
+box-sizing: border-box
+
+내 생각: 뭐든지 class로만 구분하면 그게 inline(span 등)인지 block(div 등)인지
+헷갈릴 수도 있을 거 같다. html 소스를 보면서 지금까지 BEM으로 작성된 문서를 
+본 적이 없다. 많이 사용되는 걸 쓰는 게 의사 소통이 더 잘 될 거 같다.
+BEM은 클래스 간의 관계도 좀 헷갈리는 것 같다. 부모 자식 간 관계가 어떻게 되는지 
+헷갈림.
+
+
+Modifier
+기본 class 이름에 한 칸 띄우고 적음

@@ -1,0 +1,7 @@
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+.friends-screen__channel {
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}

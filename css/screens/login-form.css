@@ -1,0 +1,46 @@
+#login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#login-form select {
+  padding: 15px 2px;
+  border: 0px;
+  width: 70%;
+}
+#login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#login-form input {
+  padding: 10px 5px;
+  border: 0px;
+  margin: 10px 0px;
+}
+#login-form input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  transition: border-color 0.5s ease-in-out;
+}
+
+#login-form input:focus {
+  border-color: var(--linegreen);
+} /* 이 코드가 앞에 오면 작동이 안됨*/
+
+#login-form input[type="submit"] {
+  background-color: var(--linegreen);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#login-facebook {
+  position: absolute;
+  bottom: 12%;
+}
+
+#login-facebook a i {
+  color: rgb(66, 103, 178);
+}
+
+#login-facebook a span {
+  color: rgba(0, 0, 0, 0.7);
+}

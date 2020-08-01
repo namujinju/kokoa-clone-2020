@@ -35,15 +35,23 @@
         </p>
       </header>
 
-      <form id="login-form">
+      <form action="friends.html" method="get" id="login-form">
         <select name="choice-country">
-          <option value="first" selected>대한민국 (Republic of Korea)</option>
-          <option value="second">모로코 (Morocco)</option>
-          <option value="third">샤쿠라스 (Shakuras)</option>
+          <option value="대한민국" selected>
+            대한민국 (Republic of Korea)
+          </option>
+          <option value="모로코">모로코 (Morocco)</option>
+          <option value="샤쿠라스">샤쿠라스 (Shakuras)</option>
         </select>
         <input type="text" placeholder="전화번호" />
         <input type="submit" value="로그인" />
-        <a href="#"><i class="fab fa-facebook"></i>Facebook으로 로그인</a>
+
+        <div id="login-facebook">
+          <a href="#">
+            <i class="fab fa-facebook fa-lg"></i>
+            <span>Facebook으로 로그인</span>
+          </a>
+        </div>
       </form>
     </div>
 
