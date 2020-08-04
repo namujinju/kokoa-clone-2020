@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More</title>
+    <style>
+      /* navigation bar 진한 표시 */
+      .nav__btn:nth-child(4) a {
+        color: var(--lineblue);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+        <!-- To do: wifi icon -->
+      </div>
+      <div class="status-bar__column">
+        <span>18:45</span>
+        <!-- To do: now time -->
+      </div>
+      <div class="status-bar__column">
+        <span>99%</span>
+        <i class="fas fa-battery-three-quarters"></i>
+        <i class="fas fa-bolt"></i>
+        <!-- To do: battery icon -->
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h2 class="screen-header__title">
+        <a href="more.html"><i class="fas fa-chevron-left"> </i></a>
+        <span>설정</span>
+      </h2>
+    </header>
+
+    <main>
+      <div class="settings">
+        <span class="settings__title">개인 정보</span>
+        <ul>
+          <li class="settings__setting">프로필</li>
+          <li class="settings__setting">계정</li>
+          <li class="settings__setting">개인 정보 보호</li>
+          <li class="settings__setting">Keep</li>
+        </ul>
+      </div>
+      <div class="settings">
+        <span class="settings__title">샵</span>
+        <ul>
+          <li class="settings__setting">스티커</li>
+          <li class="settings__setting">테마</li>
+          <li class="settings__setting">코인</li>
+        </ul>
+      </div>
+      <div class="settings">
+        <span class="settings__title">기본 설정</span>
+        <ul>
+          <li class="settings__setting">알림</li>
+        </ul>
+      </div>
+    </main>
+
+    <!-- script는 항상 body 닫기 직전에 -->
+    <script src="https://kit.fontawesome.com/a6b6bc5f72.js"></script>
+  </body>
+</html>

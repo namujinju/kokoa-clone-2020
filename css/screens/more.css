@@ -1,0 +1,38 @@
+.more__contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--lineblue);
+  background-color: rgb(240, 240, 240);
+  border-bottom: var(--linegray);
+}
+
+.more__contents__second {
+  background-color: white;
+  padding: 20px 0 25px 0;
+}
+
+.more__contents__menu {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more__contents__menu div {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.more__stickers {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 25px;
+  border-bottom: var(--linegray);
+}
+.more__stickers span:first-child {
+  font-weight: bold;
+}
+.more__stickers span:last-child {
+  color: var(--linenav);
+}

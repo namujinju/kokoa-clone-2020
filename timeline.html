@@ -4,9 +4,10 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends</title>
+    <title>Timeline</title>
     <style>
-      .nav__btn:nth-child(1) a {
+      /* navigation bar 진한 표시 */
+      .nav__btn:nth-child(3) a {
         color: var(--lineblue);
       }
     </style>
@@ -32,100 +33,93 @@
 
     <header class="screen-header">
       <h2 class="screen-header__title">
-        친구 (3명)
+        타임라인
       </h2>
       <div class="screen-header__icons">
         <span>
-          <i class="fas fa-user-plus fa-lg"></i>
+          <i class="far fa-bell fa-lg"></i>
         </span>
         <span>
-          <i class="fas fa-search fa-lg"></i>
-        </span>
-        <span>
-          <i class="fas fa-cog fa-lg"></i>
+          <i class="fas fa-home fa-lg"></i>
         </span>
       </div>
     </header>
 
-    <main class="main-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            class="user-component__profile user-component__profile--xl"
-            src="https://vignette.wikia.nocookie.net/starcraft/images/8/84/TychusFindlay_SC2_Head5.jpg/revision/latest?cb=20100906023207"
-          />
-          <div class="user-component__title">
-            <div class="user-component__name">타이커스</div>
-            <div class="user-component__subtitle">드디어 올 것이 왔군</div>
+    <main>
+      <header class="timeline__header">
+        <div class="timeline__widget">
+          <i class="fas fa-camera fa-3x"></i>
+          <span>스토리 추가</span>
+        </div>
+        <div class="timeline__widget">
+          <i class="fas fa-plus fa-3x"></i>
+          <span>새 기능</span>
+        </div>
+      </header>
+
+      <div class="timeline__unit">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              class="user-component__profile"
+              src="https://vignette.wikia.nocookie.net/starcraft/images/8/84/TychusFindlay_SC2_Head5.jpg/revision/latest?cb=20100906023207"
+            />
+            <div class="user-component__title">
+              <div class="user-component__name user-component__name--not-bold">
+                타이커스
+              </div>
+            </div>
+          </div>
+
+          <div class="user-component__column">
+            <i class="fas fa-ellipsis-h fa-2x"></i>
           </div>
         </div>
-        <div class="user-component__column"></div>
+        <p>
+          타임라인 테스트 중. 타임라인 테스트 중. 타임라인 테스트 중. 타임라인
+          테스트 중. 타임라인 테스트 중. 타임라인 테스트 중. 타임라인 테스트 중.
+          타임라인 테스트 중.
+        </p>
+        <div class="timeline__icons">
+          <i class="far fa-smile fa-2x"></i>
+          <i class="far fa-comment-dots fa-2x"></i>
+          <i class="fas fa-share-alt fa-2x"></i>
+        </div>
+        <div>댓글 1</div>
+        <div class="timeline__time">
+          <i class="fas fa-globe-asia"></i> 2시간 전
+        </div>
       </div>
-
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">친구 3></div>
-        <!-- 레이너 -->
+      <div class="timeline__unit">
         <div class="user-component">
           <div class="user-component__column">
             <img
               class="user-component__profile"
-              src="https://vignette.wikia.nocookie.net/starcraft/images/a/ad/JimRaynor_SC2_Head2.jpg/revision/latest/scale-to-width-down/328?cb=20151129213613"
+              src="https://vignette.wikia.nocookie.net/starcraft/images/8/84/TychusFindlay_SC2_Head5.jpg/revision/latest?cb=20100906023207"
             />
             <div class="user-component__title">
               <div class="user-component__name user-component__name--not-bold">
-                레이너
-              </div>
-              <div class="user-component__subtitle">
-                아크튜러스, 이 나쁜 자식! 그러지 마!
+                타이커스
               </div>
             </div>
           </div>
 
           <div class="user-component__column">
-            <span>1 ></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
           </div>
         </div>
-        <!-- 케리건 -->
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              class="user-component__profile"
-              src="https://vignette.wikia.nocookie.net/starcraft/images/3/34/KerriganHard_SC2_Portrait1.jpg/revision/latest/window-crop/width/100/x-offset/0/y-offset/0/window-width/153/window-height/152?cb=20190502165908"
-            />
-            <div class="user-component__title">
-              <div class="user-component__name user-component__name--not-bold">
-                케리건
-              </div>
-              <div class="user-component__subtitle">
-                가, 짐... 어서.
-              </div>
-            </div>
-          </div>
-
-          <div class="user-component__column">
-            <span>1 ></span>
-          </div>
+        <p>
+          타임라인 테스트 중. 타임라인 테스트 중. 타임라인 테스트 중. 타임라인
+          테스트 중. 타임라인 테스트 중. 타임라인 테스트 중. 타임라인 테스트 중.
+          타임라인 테스트 중.
+        </p>
+        <div class="timeline__icons">
+          <i class="far fa-smile fa-2x"></i>
+          <i class="far fa-comment-dots fa-2x"></i>
+          <i class="fas fa-share-alt fa-2x"></i>
         </div>
-        <!-- 태사다르 -->
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              class="user-component__profile"
-              src="https://vignette.wikia.nocookie.net/starcraft/images/9/93/TassadarEternal_SC2_Head1.jpg/revision/latest/scale-to-width-down/328?cb=20151118232940"
-            />
-            <div class="user-component__title">
-              <div class="user-component__name user-component__name--not-bold">
-                태사다르
-              </div>
-              <div class="user-component__subtitle">
-                난 죽음을 경험한 적이 없네.
-              </div>
-            </div>
-          </div>
-
-          <div class="user-component__column">
-            <span> ></span>
-          </div>
+        <div class="timeline__time">
+          <i class="fas fa-globe-asia"></i> 2시간 전
         </div>
       </div>
     </main>
@@ -134,7 +128,7 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html">
-            <i class="fas fa-user fa-2x"></i>
+            <i class="far fa-user fa-2x"></i>
             <div class="nav__descript">친구</div>
           </a>
         </li>
@@ -147,14 +141,14 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="timeline.html">
-            <i class="far fa-clock fa-2x"></i>
+            <i class="fas fa-clock fa-2x"></i>
             <div class="nav__descript">타임라인</div>
           </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="more.html">
             <div class="nav__ellipsis"></div>
-            <i class="fas fa-ellipsis-h fa-2x"> </i>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
             <div class="nav__descript">더보기</div>
           </a>
         </li>

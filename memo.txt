@@ -39,3 +39,6 @@ BEM은 클래스 간의 관계도 좀 헷갈리는 것 같다. 부모 자식 간
 
 Modifier
 기본 class 이름에 한 칸 띄우고 적음
+
+예쁘게 정렬할 때
+margin-right: auto;

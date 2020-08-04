@@ -1,5 +1,8 @@
 :root {
   --linegreen: rgb(178, 237, 139);
   --lineblue: rgb(38, 47, 74);
-  --horizontal-space: 20px;
+  --linegray: 1px solid rgba(133, 133, 133, 0.3);
+  --horizontal-space: 22px;
+  --timeline-margin: 10px;
+  --linenav: rgb(148, 148, 148);
 }

@@ -1,0 +1,15 @@
+.settings {
+  border-bottom: 1px solid var(--linegray);
+  margin: 40px 20px;
+}
+
+.settings__setting {
+  padding: 15px;
+}
+
+.settings__title {
+  display: block;
+  margin-bottom: 10px;
+  color: rgb(55, 55, 255);
+  font-weight: bold;
+}

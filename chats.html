@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Friends</title>
     <style>
-      .nav__btn:nth-child(1) a {
+      /* navigation bar 진한 표시 */
+      .nav__btn:nth-child(2) a {
         color: var(--lineblue);
       }
     </style>
@@ -32,64 +33,55 @@
 
     <header class="screen-header">
       <h2 class="screen-header__title">
-        친구 (3명)
+        대화
       </h2>
       <div class="screen-header__icons">
         <span>
           <i class="fas fa-user-plus fa-lg"></i>
         </span>
         <span>
-          <i class="fas fa-search fa-lg"></i>
+          <i class="far fa-comment-dots fa-lg"></i>
         </span>
         <span>
-          <i class="fas fa-cog fa-lg"></i>
+          <i class="fas fa-ellipsis-v fa-lg"></i>
         </span>
       </div>
     </header>
 
     <main class="main-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            class="user-component__profile user-component__profile--xl"
-            src="https://vignette.wikia.nocookie.net/starcraft/images/8/84/TychusFindlay_SC2_Head5.jpg/revision/latest?cb=20100906023207"
-          />
-          <div class="user-component__title">
-            <div class="user-component__name">타이커스</div>
-            <div class="user-component__subtitle">드디어 올 것이 왔군</div>
-          </div>
-        </div>
-        <div class="user-component__column"></div>
-      </div>
-
       <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">친구 3></div>
         <!-- 레이너 -->
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              class="user-component__profile"
-              src="https://vignette.wikia.nocookie.net/starcraft/images/a/ad/JimRaynor_SC2_Head2.jpg/revision/latest/scale-to-width-down/328?cb=20151129213613"
-            />
-            <div class="user-component__title">
-              <div class="user-component__name user-component__name--not-bold">
-                레이너
-              </div>
-              <div class="user-component__subtitle">
-                아크튜러스, 이 나쁜 자식! 그러지 마!
+        <a href="chatroom.html"
+          ><div class="user-component">
+            <div class="user-component__column">
+              <img
+                class="user-component__profile user-component__profile--xl"
+                src="https://vignette.wikia.nocookie.net/starcraft/images/a/ad/JimRaynor_SC2_Head2.jpg/revision/latest/scale-to-width-down/328?cb=20151129213613"
+              />
+              <div class="user-component__title">
+                <div
+                  class="user-component__name user-component__name--not-bold"
+                >
+                  레이너
+                </div>
+                <div class="user-component__subtitle">
+                  협동전 한판 돌리지, 친구
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="user-component__column">
-            <span>1 ></span>
-          </div>
-        </div>
+            <div class="user-component__column">
+              <span class="user-component__column__time">오전 5:48</span>
+              <div class="badge">1</div>
+            </div>
+          </div></a
+        >
+
         <!-- 케리건 -->
         <div class="user-component">
           <div class="user-component__column">
             <img
-              class="user-component__profile"
+              class="user-component__profile user-component__profile--xl"
               src="https://vignette.wikia.nocookie.net/starcraft/images/3/34/KerriganHard_SC2_Portrait1.jpg/revision/latest/window-crop/width/100/x-offset/0/y-offset/0/window-width/153/window-height/152?cb=20190502165908"
             />
             <div class="user-component__title">
@@ -97,20 +89,21 @@
                 케리건
               </div>
               <div class="user-component__subtitle">
-                가, 짐... 어서.
+                ㅎㅇㅎㅇ
               </div>
             </div>
           </div>
 
           <div class="user-component__column">
-            <span>1 ></span>
+            <span class="user-component__column__time">오후 5:01</span>
+            <div class="badge">1</div>
           </div>
         </div>
         <!-- 태사다르 -->
         <div class="user-component">
           <div class="user-component__column">
             <img
-              class="user-component__profile"
+              class="user-component__profile user-component__profile--xl"
               src="https://vignette.wikia.nocookie.net/starcraft/images/9/93/TassadarEternal_SC2_Head1.jpg/revision/latest/scale-to-width-down/328?cb=20151118232940"
             />
             <div class="user-component__title">
@@ -118,13 +111,13 @@
                 태사다르
               </div>
               <div class="user-component__subtitle">
-                난 죽음을 경험한 적이 없네.
+                En Taro Tassadar!
               </div>
             </div>
           </div>
 
           <div class="user-component__column">
-            <span> ></span>
+            <span class="user-component__column__time">7.21</span>
           </div>
         </div>
       </div>
@@ -134,14 +127,14 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html">
-            <i class="fas fa-user fa-2x"></i>
+            <i class="far fa-user fa-2x"></i>
             <div class="nav__descript">친구</div>
           </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification badge">2</span>
-            <i class="far fa-comment-dots fa-2x"></i>
+            <i class="fas fa-comment-dots fa-2x"></i>
             <div class="nav__descript">대화</div>
           </a>
         </li>
@@ -154,7 +147,7 @@
         <li class="nav__btn">
           <a class="nav__link" href="more.html">
             <div class="nav__ellipsis"></div>
-            <i class="fas fa-ellipsis-h fa-2x"> </i>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
             <div class="nav__descript">더보기</div>
           </a>
         </li>

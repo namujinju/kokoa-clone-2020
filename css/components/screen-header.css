@@ -7,8 +7,12 @@
   text-align: center;
   color: white;
 }
+
 .screen-header__title {
-  font-size: 25px;
+  font-size: 22px;
+}
+.screen-header__title a {
+  margin-right: 10px;
 }
 
 .screen-header__icons i {
