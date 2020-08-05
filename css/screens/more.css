@@ -1,3 +1,7 @@
+.more-screen {
+  padding-top: 85px;
+}
+
 .more__contents {
   display: flex;
   justify-content: center;
@@ -27,7 +31,7 @@
 .more__stickers {
   display: flex;
   justify-content: space-between;
-  padding: 30px 25px;
+  padding: 30px;
   border-bottom: var(--linegray);
 }
 .more__stickers span:first-child {

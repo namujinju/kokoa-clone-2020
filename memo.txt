@@ -42,3 +42,5 @@ Modifier
 
 예쁘게 정렬할 때
 margin-right: auto;
+
+flex-direction: row-reverse; # html을 손대지 않고 순서를 바꿀 수 있음

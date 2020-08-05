@@ -31,7 +31,7 @@
       </div>
     </div>
 
-    <header class="screen-header">
+    <header class="screen-header screen-header__chatroom">
       <h2 class="screen-header__title">
         <a href="chats.html"><i class="fas fa-chevron-left"> </i></a>
         <span>레이너</span>
@@ -45,6 +45,48 @@
         </span>
       </div>
     </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">
+        오늘
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">아니, 이게 누구신가</span>
+            <span class="message__time">오전 2:59</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img
+          src="https://vignette.wikia.nocookie.net/starcraft/images/a/ad/JimRaynor_SC2_Head2.jpg/revision/latest/scale-to-width-down/328?cb=20151129213613"
+        />
+
+        <div class="message-row__content">
+          <span class="message__author">레이너</span>
+          <div class="message__info">
+            <span class="message__bubble">협동전 한판 돌리지, 친구</span>
+            <span class="message__time">오전 5:48</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fas fa-chevron-right fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="메시지를 입력하세요" />
+        <i class="far fa-smile fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <button>
+          <i class="fas fa-caret-right fa-3x"></i>
+        </button>
+      </div>
+    </form>
 
     <!-- script는 항상 body 닫기 직전에 -->
     <script src="https://kit.fontawesome.com/a6b6bc5f72.js"></script>
